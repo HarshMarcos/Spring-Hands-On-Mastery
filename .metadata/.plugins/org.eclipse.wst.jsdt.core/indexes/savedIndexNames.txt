@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+D:\Practice Exercises\Spring Hands-on Mastery-S1\Spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

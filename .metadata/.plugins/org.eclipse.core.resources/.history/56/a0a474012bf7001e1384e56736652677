@@ -1,0 +1,13 @@
+package com.learning.spring.day1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class D05P01 {
+
+	public static void main(String[] args) {
+		SpringApplication.run(D05P01.class, args);
+	}
+
+}

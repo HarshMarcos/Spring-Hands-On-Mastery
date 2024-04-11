@@ -1,0 +1,27 @@
+package com.learning.spring.day1;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+@SpringBootApplication
+public class D05P01 {
+
+	public static void main(String[] args) {
+//		SpringApplication.run(D05P01.class, args);
+		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+		
+		Product product = (Product) context.getBean("product");
+		
+		Battery battery = (Battery) context.getBean("battery");
+		Disc disc = (Disc) context.getBean("disc");
+		
+		System.out.println(product);
+		
+		System.out.println(battery);
+		System.out.println(disc);
+		
+	}
+
+}
