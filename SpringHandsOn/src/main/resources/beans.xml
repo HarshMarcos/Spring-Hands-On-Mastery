@@ -18,7 +18,7 @@
     </bean> -->
     
     <!--       Construction Injection -->
-<bean id="battery" class="com.learning.spring.day1.Battery">
+	<!-- <bean id="battery" class="com.learning.spring.day1.Battery">
         <constructor-arg value="BAT123"/>
         <constructor-arg value="Rechargeable Battery"/>
         <constructor-arg value="20.00"/>
@@ -32,6 +32,7 @@
         <constructor-arg value="10.00"/>
         <constructor-arg value="5000"/>
        
-    </bean>
+    </bean>-->
+   <!--   <bean id="shoppingCart" class="com.learning.spring.day2.ShoppingCart" scope="prototype"/>-->
 	
 </beans>

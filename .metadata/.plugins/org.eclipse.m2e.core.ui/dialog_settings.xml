@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Practice Exercises\Spring Hands-on Mastery-S1\Spring\Problem09"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,12 +26,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.learning.spring.day3"/>
 			<item value="com.learning.spring.day1"/>
 		</list>
 		<list key="groupId">
 			<item value="com.learning.spring"/>
 		</list>
 		<list key="artifactId">
+			<item value="Problem10"/>
+			<item value="day3"/>
 			<item value="day1"/>
 		</list>
 		<list key="projectNameTemplate">
